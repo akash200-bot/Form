@@ -1,0 +1,63 @@
+.form{
+    
+    background: #ede8e851;
+     font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.form div{
+    background: rgb(124, 197, 14);
+    width: 100%;
+    color: rgb(255, 251, 251);
+}
+
+.form div h1{
+    margin-left: 30px;
+    
+}
+
+.form div h1 p{
+     font-size: large;
+}
+
+label {
+    font-size: small;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label input{
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.massage{
+    width:auto;
+    height: 100px;
+}
+
+#select{
+    width: 300px;
+}
+
+#button{
+    width: 90px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(124, 197, 14);
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#button:hover{
+    opacity: 0.8;
+}

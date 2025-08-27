@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <form class="form" method="post">
+        <div>
+            <h1>Contact Form
+                <p>Please fill all the details given below</p>
+            </h1>
+            
+        </div>
+        <label>
+            <span>Your Name :</span>
+            <input type="text" id="Name" placeholder="Fill your name" />
+        </label>
+
+        <label for="">
+            <span>Your E-mail :</span>
+            <input type="email" name="emial" id="email" placeholder="Enter vailid Email" />
+        </label>
+
+        <label for="">
+            <span>Massage :</span>
+            <textarea name="Massage" class="massage"  placeholder="Enter your Massage to us"></textarea>
+        </label>
+
+        <label for="">
+            <span>Subject :</span>
+            <select name="selection" id="select">
+                <option value="Job inquiry">Job inquiry</option>
+                <option value="course inquiry">course inquiry</option>
+                <option value="General question">General question</option>
+            </select>
+        </label>
+
+        <label>
+            <input type="button" id="button" value="Send" />
+        </label>
+    </form>
+</body>
+</html>
